@@ -1,0 +1,78 @@
+For each view, first rate the visible gait cues, then write exactly one clinical gait description.
+
+For each cue, choose exactly one of:
+"preserved", "slightly reduced", "clearly reduced", "not clearly visible".
+
+Cue definitions:
+- speed: preserved if the subject advances at a normal-looking walking pace; slightly reduced only if visibly slow; clearly reduced only if very slow.
+- step_length: preserved if steps/stride amplitude look normal; slightly reduced only if visibly shortened; clearly reduced only if markedly shortened or shuffling.
+- foot_clearance: preserved if feet lift clearly from the ground; slightly reduced if foot lift looks low; clearly reduced if shuffling or dragging is visible.
+- left_arm_swing and right_arm_swing: preserved if visible and naturally swinging; slightly reduced or clearly reduced only when the arm visibly moves less than expected; not clearly visible if occluded by the view.
+- trunk_posture: preserved if upright/stable; slightly reduced if mildly stooped or rigid; clearly reduced if markedly stooped or unstable.
+- turning: preserved if a smooth turn is visible; slightly reduced if cautious or extra steps are visible; clearly reduced if multiple-step turning or instability is visible; not clearly visible if no turn is shown.
+
+Before rating a cue as preserved, actively check for these visible reduced-motion anchors:
+- arm swing: arm stays close to the trunk, small shoulder/elbow excursion, weak backward arm extension, or one arm moves less than the other.
+- step length: feet land close together, forward progression per step looks small relative to body height, or the stride lacks amplitude.
+- foot clearance: toes or feet stay close to the ground, foot lift is shallow, or the step looks shuffling.
+- speed/cadence: progression looks cautious, slow, hesitant, or rhythmically reduced.
+- trunk/stability: forward lean, stiff trunk, widened base, balance correction, or cautious weight transfer.
+- turning: turn uses several small steps, is segmented, slow, or cautious.
+
+If a cue is between preserved and reduced, choose "slightly reduced" rather than forcing preserved.
+
+Important rules:
+- Do not default to normal or impaired wording.
+- Use abnormal wording in the sentence only for cues rated slightly reduced or clearly reduced.
+- If most cues are preserved, the sentence should describe preserved gait instead of forcing abnormalities.
+- If a cue is not clearly visible, mention that only if clinically relevant; otherwise omit it.
+- Do not rate a cue as reduced just because the rendered body is stylized or viewed from the side.
+- Do not infer slowness from short video duration or camera angle.
+- Avoid vague phrases such as "gait abnormality", "impairment", or "Parkinsonian".
+
+Use concrete clinical gait vocabulary when supported:
+normal, preserved, symmetric, stable, smooth, coordinated, full stride,
+slightly slow, mildly reduced, slightly shortened, subtle asymmetry,
+slow, reduced, shortened, low foot clearance, shuffling, decreased arm swing,
+cautious turning, multiple-step turning, instability, irregular rhythm, asymmetry.
+
+Use richer clinical wording in the sentence, but the wording must follow your cue ratings.
+
+If a cue is rated "preserved", you may use only normal-looking phrases for that cue:
+normal pace, regular stride, symmetric step length,
+adequate foot clearance, normal heel strike, coordinated arm swing,
+symmetric arm swing, upright posture, stable trunk, stable balance,
+smooth gait cycle, fluid movement, smooth turn,
+quick turning, confident gait, normal cadence, continuous forward progression,
+no hesitation, good weight transfer, stable base of support, no festination.
+
+If a cue is rated "slightly reduced", you must use slight-impairment phrases for that cue:
+slightly slowed pace, reduced walking speed, mildly shortened stride,
+slight stride asymmetry, mildly reduced foot lift, less distinct heel strike,
+mildly reduced arm swing, asymmetric arm swing, slight stooped posture,
+mild trunk rigidity, slight postural instability, mildly irregular gait rhythm,
+mildly stiff movement, cautious walking, slightly cautious turn,
+mildly slower turning, mildly hesitant gait, slightly reduced cadence,
+mild interruption of rhythm, brief hesitation, mildly impaired weight transfer,
+slightly widened base, no obvious festination.
+
+If a cue is rated "clearly reduced", you must use clearer impairment phrases for that cue:
+slow gait, markedly reduced speed, shortened stride, noticeable stride asymmetry,
+reduced foot clearance, shuffling heel strike, clearly reduced arm swing,
+markedly asymmetric arm swing, stooped posture, rigid trunk,
+mild balance impairment, irregular gait rhythm, stiff movement, cautious gait,
+slow multi-step turn, noticeably slower turning, hesitant gait,
+reduced cadence, interrupted rhythm, repeated hesitation, impaired weight transfer,
+widened base of support, occasional tendency toward festination.
+
+Do not use normal-looking phrases for cues rated slightly reduced or clearly reduced.
+Do not use impairment phrases for cues rated preserved.
+
+Sentence style:
+- Write a fluent clinical paragraph, not a checklist.
+- Mention 4 to 6 observable cues, not every cue.
+- Prefer natural phrases from the vocabulary above.
+- Use "preserved" at most once in the sentence.
+
+Do not mention UPDRS, score, severity class, diagnosis, uncertainty, the video, the camera, or your role.
+Do not infer clinical information that is not visible.

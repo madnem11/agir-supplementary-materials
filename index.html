@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Supplementary gait visualizations, generated reports, and annotation instructions for AGIR.">
+<title>AGIR · Supplementary materials</title>
+<style>
+:root{--ink:#172e41;--muted:#536574;--line:#dce3e7;--paper:#f7f9fa;--teal:#106e69;--wash:#eaf4f2;--amber:#75531a}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;color:var(--ink);background:white;font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--teal);text-underline-offset:4px}a:hover{text-decoration-thickness:2px}button,a{touch-action:manipulation}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #cb9a42;outline-offset:4px}[hidden]{display:none!important}.skip{position:absolute;top:-70px;left:16px;padding:10px;background:white;z-index:10}.skip:focus{top:10px}.wrap{width:min(1180px,calc(100% - 56px));margin:auto}.nav{position:sticky;top:0;z-index:3;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}.nav-inner{display:flex;align-items:center;justify-content:space-between;min-height:72px;gap:20px}.brand{font-size:22px;font-weight:800;letter-spacing:.06em;text-decoration:none;color:var(--ink)}.brand small{font-size:11px;letter-spacing:.12em;margin-left:14px;font-weight:600;color:var(--muted)}.nav-links{display:flex;gap:28px;font-size:13px}.nav-links a{color:var(--ink);text-decoration:none}.hero{padding:62px 0 34px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:750;color:var(--teal)}h1{font-size:clamp(30px,4vw,49px);line-height:1.15;letter-spacing:-.035em;font-weight:650;max-width:930px;margin:16px 0 22px}h1 em{font-family:Georgia,serif;font-weight:400;color:var(--teal)}.lead{max-width:800px;font-size:17px;color:var(--muted);margin:0 0 26px}.facts{display:flex;flex-wrap:wrap;gap:8px}.pill{font-size:12px;padding:5px 12px;border:1px solid var(--line);border-radius:30px;color:var(--muted)}.status{border:1px solid #e8dcc3;background:#fcf8ef;padding:13px 18px;display:flex;gap:12px;align-items:flex-start;font-size:13px;color:var(--amber);margin:5px 0 38px;border-radius:8px}.status.ready{background:var(--wash);border-color:#c9dfda;color:var(--teal)}.dot{flex:0 0 7px;height:7px;background:currentColor;border-radius:50%;margin-top:8px}.section{padding:22px 0 40px;border-top:1px solid var(--line)}.section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:22px;margin-bottom:20px}h2{font-size:25px;line-height:1.25;letter-spacing:-.025em;font-weight:650;margin:12px 0 8px}.section-heading p{font-size:13px;color:var(--muted);margin:0}.number{font-size:12px;letter-spacing:.08em;color:#71838c;margin-right:10px}.examples{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.example{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:white}.example-top{padding:16px 18px;display:flex;justify-content:space-between;align-items:center;background:var(--paper);border-bottom:1px solid var(--line)}.score{font-size:12px;color:var(--teal);background:var(--wash);padding:4px 9px;border-radius:5px;font-weight:650}.visual{aspect-ratio:1.08;background:white;display:grid;place-items:center}.visual img,.visual video{width:100%;height:100%;object-fit:contain;max-width:100%;min-width:0}.example-bottom{border-top:1px solid var(--line);padding:12px 16px 16px}.media-state{font-size:11px;line-height:1.5;color:var(--muted);margin:0 0 10px}.example-links{display:flex;flex-wrap:wrap;gap:5px 16px;font-size:12px}.example-links a{text-decoration:none}.caption{font-size:13px;color:var(--muted);max-width:940px;margin:18px 0 0}.table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse;font-size:13px;min-width:700px}thead{background:var(--paper);text-align:left}th,td{padding:19px 18px;border-bottom:1px solid var(--line);vertical-align:top}thead th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:650}.report-text{line-height:1.8;min-width:330px}tbody th{min-width:110px;font-weight:650}tbody th a{text-decoration:none}.numeric{text-align:center;font-size:17px;font-weight:600;min-width:84px}tr:last-child td,tr:last-child th{border-bottom:0}tr:target{background:#edf5f4}.note{background:var(--paper);border-left:3px solid #8ba9a9;padding:14px 18px;font-size:13px;color:var(--muted);margin-top:16px}.download{white-space:nowrap;font-size:12px}.prompt-grid{display:grid;grid-template-columns:1fr 1.35fr;gap:42px}.prompt-summary p{font-size:14px;color:var(--muted)}.prompt-summary strong{color:var(--ink)}.prompt-box{border:1px solid var(--line);border-radius:10px;padding:23px;background:var(--paper)}.prompt-status{font-size:14px;font-weight:650;margin:0 0 10px}.prompt-description{font-size:13px;color:var(--muted);margin:0 0 16px}.actions{display:flex;flex-wrap:wrap;gap:10px}.button,button{display:inline-flex;align-items:center;justify-content:center;border:1px solid #bbceca;background:white;color:var(--teal);font:600 12px system-ui;padding:10px 14px;border-radius:6px;cursor:pointer;text-decoration:none}button:disabled{cursor:not-allowed;opacity:.5}details{margin-top:22px;border-top:1px solid var(--line);padding-top:16px}summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--teal)}pre{white-space:pre-wrap;word-break:break-word;max-height:500px;overflow:auto;font:12px/1.75 ui-monospace,SFMono-Regular,Consolas,monospace;background:white;border:1px solid var(--line);border-radius:6px;padding:18px;margin:16px 0 0}.instructions-detail{margin-top:20px}.footer{padding:24px 0 36px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}.footer .wrap{display:flex;justify-content:space-between;gap:20px}.context{font-size:12px;margin:12px 0 0;color:var(--muted)}@media(max-width:780px){.wrap{width:calc(100% - 32px)}.nav-inner{min-height:65px}.brand small{display:none}.nav-links{gap:15px;font-size:12px}.hero{padding-top:36px}.examples{grid-template-columns:1fr}.visual{aspect-ratio:1.4;max-height:420px}.example{max-width:520px;margin:auto;width:100%}.prompt-grid{grid-template-columns:1fr;gap:16px}.section-heading{align-items:flex-start;flex-direction:column;gap:0}.footer .wrap{flex-direction:column;gap:5px}.lead{font-size:15px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.hero{position:relative;padding:64px 0 40px}.hero:after{content:"";position:absolute;right:0;top:40px;width:140px;height:140px;z-index:-1;background:radial-gradient(circle,#b1d8d1 1px,transparent 1.5px);background-size:12px 12px;opacity:.5}.examples{margin-top:22px}.visual{aspect-ratio:1}.example{box-shadow:0 8px 30px rgba(23,46,65,.035)}.playback-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 18px;background:var(--paper);border:1px solid var(--line);border-radius:10px}.playback-buttons{display:flex;gap:8px;flex-wrap:wrap}#play-all{background:var(--teal);color:white;border-color:var(--teal)}.speed-label{font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:center}select{background:white;border:1px solid var(--line);border-radius:6px;color:var(--ink);padding:9px;font:inherit}.video-error{font-size:12px;color:#9c442c}.prompt-summary h3{font:400 30px/1.25 Georgia,serif;letter-spacing:-.02em;margin:10px 0 20px}video:focus-visible,select:focus-visible{outline:3px solid #cb9a42;outline-offset:3px}#full-prompt{max-height:560px}.section{padding-top:30px}.hero .lead{max-width:770px}@media(max-width:780px){.playback-toolbar{align-items:flex-start;flex-direction:column}.visual{aspect-ratio:1;max-height:none}.hero:after{display:none}.hero{padding-top:32px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><div class="wrap nav-inner"><a class="brand" href="#main">AGIR<small>SUPPLEMENTARY MATERIALS</small></a><nav class="nav-links" aria-label="Main navigation"><a href="#examples">Gait examples</a><a href="#reports">Reports</a><a href="#instructions">Instructions</a></nav></div></header>
+<main id="main" class="wrap">
+<section class="hero" aria-labelledby="title"><div class="eyebrow">Motion · Language · Gait assessment</div><h1 id="title">Assessing 3D Gait Impairment<br>with Reasoning based on <em>LLMs</em></h1><p class="lead">Explore three PD-GaM gait examples alongside their generated reports and the instructions for multi-view motion annotation.</p><div class="facts"><span class="pill">PD-GaM</span><span class="pill">UPDRS labels 0 / 1 / 2</span><span class="pill">Texture-free body meshes</span></div></section>
+
+<section class="section" id="examples" aria-labelledby="examples-heading"><div class="section-heading"><div><h2 id="examples-heading"><span class="number">01</span>Gait examples</h2><p>One sequence for each reference UPDRS label.</p></div></div><div class="playback-toolbar"><div class="playback-buttons"><button type="button" id="play-all">▶ Play all from start</button><button type="button" id="pause-all">Pause all</button></div><label class="speed-label" for="speed">Playback speed <select id="speed"><option value="0.5">0.5× · slow motion</option><option value="1" selected>1× · original timing</option></select></label></div><p id="playback-state" class="context" aria-live="polite">Original timing is selected. The sequences have different durations; simultaneous playback is not gait-phase alignment.</p><div class="examples"><article class="example" id="example-0"><div class="example-top"><span class="eyebrow">Example 01</span><span class="score">UPDRS 0</span></div><div class="visual"><video controls playsinline preload="metadata" poster="assets/updrs-0.png" aria-label="Rendered gait motion, reference UPDRS label 0"><source src="media/updrs-0.mp4" type="video/mp4">Your browser does not support embedded video.</video></div><div class="example-bottom"><p class="media-state">5.6 s <span aria-hidden="true">·</span> 25 fps <span aria-hidden="true">·</span> 3D mesh rendering</p><p class="video-error" hidden>Video unavailable. Try downloading the MP4 below.</p><div class="example-links"><a href="#report-0">Read generated report ↘</a><a href="media/updrs-0.mp4" download="updrs-0.mp4">Download MP4 ↓</a></div></div></article>
+<article class="example" id="example-1"><div class="example-top"><span class="eyebrow">Example 02</span><span class="score">UPDRS 1</span></div><div class="visual"><video controls playsinline preload="metadata" poster="assets/updrs-1.png" aria-label="Rendered gait motion, reference UPDRS label 1"><source src="media/updrs-1.mp4" type="video/mp4">Your browser does not support embedded video.</video></div><div class="example-bottom"><p class="media-state">5.2 s <span aria-hidden="true">·</span> 25 fps <span aria-hidden="true">·</span> 3D mesh rendering</p><p class="video-error" hidden>Video unavailable. Try downloading the MP4 below.</p><div class="example-links"><a href="#report-1">Read generated report ↘</a><a href="media/updrs-1.mp4" download="updrs-1.mp4">Download MP4 ↓</a></div></div></article>
+<article class="example" id="example-2"><div class="example-top"><span class="eyebrow">Example 03</span><span class="score">UPDRS 2</span></div><div class="visual"><video controls playsinline preload="metadata" poster="assets/updrs-2.png" aria-label="Rendered gait motion, reference UPDRS label 2"><source src="media/updrs-2.mp4" type="video/mp4">Your browser does not support embedded video.</video></div><div class="example-bottom"><p class="media-state">13.4 s <span aria-hidden="true">·</span> 25 fps <span aria-hidden="true">·</span> 3D mesh rendering</p><p class="video-error" hidden>Video unavailable. Try downloading the MP4 below.</p><div class="example-links"><a href="#report-2">Read generated report ↘</a><a href="media/updrs-2.mp4" download="updrs-2.mp4">Download MP4 ↓</a></div></div></article></div><p class="caption">These three examples correspond to the source Figure 5.5. Each panel represents a different walking sequence. The three camera views used for annotation instead show the <em>same</em> sequence from different viewpoints.</p><p class="context">Motion videos are pre-rendered views of a 3D reconstruction; they do not provide an interactive 3D camera.</p></section>
+<section class="section" id="reports" aria-labelledby="reports-heading"><div class="section-heading"><div><h2 id="reports-heading"><span class="number">02</span>Generated reports</h2><p>Source Table 5.8 · Final configuration: K = 10, M = 16.</p></div><a class="download" href="results/table-5-8.csv" download>Download table (CSV) ↓</a></div><div class="table-scroll" role="region" aria-label="Generated gait reports, scroll horizontally on small screens" tabindex="0"><table><thead><tr><th scope="col">Sequence</th><th scope="col">Reference<br>UPDRS</th><th scope="col">Generated<br>score</th><th scope="col">Produced text</th></tr></thead><tbody><tr id="report-0"><th scope="row"><a href="#example-0">Example 01</a></th><td class="numeric">0</td><td class="numeric">0</td><td class="report-text">Observations: the subject demonstrates an overall symmetrical gait characterized by moderately slow walking speed and reduced cadence. step length is short but stride width remains normal wide throughout both. Therefore severity score: 0</td></tr>
+<tr id="report-1"><th scope="row"><a href="#example-1">Example 02</a></th><td class="numeric">1</td><td class="numeric">1</td><td class="report-text">Observations: the subject demonstrates an overall symmetrical gait characterized by normal walking speed and regular rhythm throughout both straight segments of the path. lower limb kinematics show reduced knee. Therefore severity score: 1</td></tr>
+<tr id="report-2"><th scope="row"><a href="#example-2">Example 03</a></th><td class="numeric">2</td><td class="numeric">2</td><td class="report-text">Observations: the subject demonstrates a markedly abnormal and slow walking speed characterized by significant shuffling with very reduced foot clearance and low toe contact. step length is significantly shortened bilater. Therefore severity score: 2</td></tr></tbody></table></div><p class="caption">The produced texts are transcribed verbatim from the source table, including incomplete phrases. Only line wrapping and the surrounding quotation marks have been normalized.</p><div class="note">The generated score matches the reference label in these three selected examples. This does not establish overall accuracy or the clinical correctness and completeness of the accompanying descriptions.</div></section>
+<section class="section" id="instructions" aria-labelledby="instructions-heading"><div class="section-heading"><div><h2 id="instructions-heading"><span class="number">03</span>Gait annotation instructions</h2><p>Supplied instruction file · reproduced verbatim.</p></div><a class="download" href="instructions/gemini-instructions.txt" download="gemini-instructions.txt">Download instructions (TXT) ↓</a></div><div class="prompt-grid"><div class="prompt-summary"><p class="eyebrow">From visible motion to language</p><h3>Make the annotation<br>procedure inspectable.</h3><p>The supplied file asks for view-by-view cue ratings followed by a clinical gait description. It defines four rating choices and ties the wording of each description to the observed cues.</p><p>The full text is available below and as a downloadable file. Its contents have not been shortened or rewritten.</p><p>The generated reports above are presented separately from the annotation instructions.</p></div><div class="prompt-box"><p class="prompt-status">Instruction file</p><p class="prompt-description">Seven cue fields: speed, step length, foot clearance, left and right arm swing, trunk posture, and turning.</p><div class="actions"><button type="button" id="copy-prompt">Copy instructions</button><a class="button" href="instructions/gemini-instructions.txt" download="gemini-instructions.txt">Download TXT</a></div><p id="copy-status" aria-live="polite" class="context"></p><details id="full-details"><summary>Read the complete supplied file</summary><pre id="full-prompt">For each view, first rate the visible gait cues, then write exactly one clinical gait description.
+
+For each cue, choose exactly one of:
+&quot;preserved&quot;, &quot;slightly reduced&quot;, &quot;clearly reduced&quot;, &quot;not clearly visible&quot;.
+
+Cue definitions:
+- speed: preserved if the subject advances at a normal-looking walking pace; slightly reduced only if visibly slow; clearly reduced only if very slow.
+- step_length: preserved if steps/stride amplitude look normal; slightly reduced only if visibly shortened; clearly reduced only if markedly shortened or shuffling.
+- foot_clearance: preserved if feet lift clearly from the ground; slightly reduced if foot lift looks low; clearly reduced if shuffling or dragging is visible.
+- left_arm_swing and right_arm_swing: preserved if visible and naturally swinging; slightly reduced or clearly reduced only when the arm visibly moves less than expected; not clearly visible if occluded by the view.
+- trunk_posture: preserved if upright/stable; slightly reduced if mildly stooped or rigid; clearly reduced if markedly stooped or unstable.
+- turning: preserved if a smooth turn is visible; slightly reduced if cautious or extra steps are visible; clearly reduced if multiple-step turning or instability is visible; not clearly visible if no turn is shown.
+
+Before rating a cue as preserved, actively check for these visible reduced-motion anchors:
+- arm swing: arm stays close to the trunk, small shoulder/elbow excursion, weak backward arm extension, or one arm moves less than the other.
+- step length: feet land close together, forward progression per step looks small relative to body height, or the stride lacks amplitude.
+- foot clearance: toes or feet stay close to the ground, foot lift is shallow, or the step looks shuffling.
+- speed/cadence: progression looks cautious, slow, hesitant, or rhythmically reduced.
+- trunk/stability: forward lean, stiff trunk, widened base, balance correction, or cautious weight transfer.
+- turning: turn uses several small steps, is segmented, slow, or cautious.
+
+If a cue is between preserved and reduced, choose &quot;slightly reduced&quot; rather than forcing preserved.
+
+Important rules:
+- Do not default to normal or impaired wording.
+- Use abnormal wording in the sentence only for cues rated slightly reduced or clearly reduced.
+- If most cues are preserved, the sentence should describe preserved gait instead of forcing abnormalities.
+- If a cue is not clearly visible, mention that only if clinically relevant; otherwise omit it.
+- Do not rate a cue as reduced just because the rendered body is stylized or viewed from the side.
+- Do not infer slowness from short video duration or camera angle.
+- Avoid vague phrases such as &quot;gait abnormality&quot;, &quot;impairment&quot;, or &quot;Parkinsonian&quot;.
+
+Use concrete clinical gait vocabulary when supported:
+normal, preserved, symmetric, stable, smooth, coordinated, full stride,
+slightly slow, mildly reduced, slightly shortened, subtle asymmetry,
+slow, reduced, shortened, low foot clearance, shuffling, decreased arm swing,
+cautious turning, multiple-step turning, instability, irregular rhythm, asymmetry.
+
+Use richer clinical wording in the sentence, but the wording must follow your cue ratings.
+
+If a cue is rated &quot;preserved&quot;, you may use only normal-looking phrases for that cue:
+normal pace, regular stride, symmetric step length,
+adequate foot clearance, normal heel strike, coordinated arm swing,
+symmetric arm swing, upright posture, stable trunk, stable balance,
+smooth gait cycle, fluid movement, smooth turn,
+quick turning, confident gait, normal cadence, continuous forward progression,
+no hesitation, good weight transfer, stable base of support, no festination.
+
+If a cue is rated &quot;slightly reduced&quot;, you must use slight-impairment phrases for that cue:
+slightly slowed pace, reduced walking speed, mildly shortened stride,
+slight stride asymmetry, mildly reduced foot lift, less distinct heel strike,
+mildly reduced arm swing, asymmetric arm swing, slight stooped posture,
+mild trunk rigidity, slight postural instability, mildly irregular gait rhythm,
+mildly stiff movement, cautious walking, slightly cautious turn,
+mildly slower turning, mildly hesitant gait, slightly reduced cadence,
+mild interruption of rhythm, brief hesitation, mildly impaired weight transfer,
+slightly widened base, no obvious festination.
+
+If a cue is rated &quot;clearly reduced&quot;, you must use clearer impairment phrases for that cue:
+slow gait, markedly reduced speed, shortened stride, noticeable stride asymmetry,
+reduced foot clearance, shuffling heel strike, clearly reduced arm swing,
+markedly asymmetric arm swing, stooped posture, rigid trunk,
+mild balance impairment, irregular gait rhythm, stiff movement, cautious gait,
+slow multi-step turn, noticeably slower turning, hesitant gait,
+reduced cadence, interrupted rhythm, repeated hesitation, impaired weight transfer,
+widened base of support, occasional tendency toward festination.
+
+Do not use normal-looking phrases for cues rated slightly reduced or clearly reduced.
+Do not use impairment phrases for cues rated preserved.
+
+Sentence style:
+- Write a fluent clinical paragraph, not a checklist.
+- Mention 4 to 6 observable cues, not every cue.
+- Prefer natural phrases from the vocabulary above.
+- Use &quot;preserved&quot; at most once in the sentence.
+
+Do not mention UPDRS, score, severity class, diagnosis, uncertainty, the video, the camera, or your role.
+Do not infer clinical information that is not visible.
+</pre></details></div></div></section></main><footer class="footer"><div class="wrap"><span>AGIR · Research supplementary materials</span><span>Qualitative examples · Generated text reproduced without correction</span></div></footer>
+
+<script>
+(() => {
+ 'use strict';
+ const videos=[...document.querySelectorAll('video')];
+ const status=document.getElementById('playback-state');
+ videos.forEach(v=>{
+  const fail=()=>{v.closest('.example').querySelector('.video-error').hidden=false;};
+  v.addEventListener('error',fail);v.querySelector('source').addEventListener('error',fail);
+ });
+ document.getElementById('play-all').addEventListener('click',async()=>{
+  videos.forEach(v=>{v.pause();v.currentTime=0;});
+  const results=await Promise.allSettled(videos.map(v=>v.play()));
+  const failures=results.filter(x=>x.status==='rejected').length;
+  status.textContent=failures?'Some videos could not start. Use their individual playback controls.':'Playback started from the beginning. Sequences are not aligned by gait phase.';
+ });
+ document.getElementById('pause-all').addEventListener('click',()=>{videos.forEach(v=>v.pause());status.textContent='All videos paused.';});
+ document.getElementById('speed').addEventListener('change',e=>{
+  videos.forEach(v=>v.playbackRate=Number(e.target.value));
+  status.textContent=Number(e.target.value)===1?'Original playback timing (1×).':'Slow motion (0.5×): displayed walking speed is half the original. Use 1× to assess timing.';
+ });
+ document.getElementById('copy-prompt').addEventListener('click',async()=>{
+  const text=document.getElementById('full-prompt').textContent;
+  try{await navigator.clipboard.writeText(text);document.getElementById('copy-status').textContent='Instructions copied.';}
+  catch(_){document.getElementById('full-details').open=true;const r=document.createRange();r.selectNodeContents(document.getElementById('full-prompt'));const s=window.getSelection();s.removeAllRanges();s.addRange(r);document.getElementById('copy-status').textContent='Text selected. Use your browser’s Copy command.';}
+ });
+})();
+</script></body></html>

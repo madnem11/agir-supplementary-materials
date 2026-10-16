@@ -1,0 +1,4 @@
+example,reference_updrs_label,generated_score,produced_text,K,M
+Example 01,0,0,Observations: the subject demonstrates an overall symmetrical gait characterized by moderately slow walking speed and reduced cadence. step length is short but stride width remains normal wide throughout both. Therefore severity score: 0,10,16
+Example 02,1,1,Observations: the subject demonstrates an overall symmetrical gait characterized by normal walking speed and regular rhythm throughout both straight segments of the path. lower limb kinematics show reduced knee. Therefore severity score: 1,10,16
+Example 03,2,2,Observations: the subject demonstrates a markedly abnormal and slow walking speed characterized by significant shuffling with very reduced foot clearance and low toe contact. step length is significantly shortened bilater. Therefore severity score: 2,10,16
