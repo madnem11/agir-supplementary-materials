@@ -115,6 +115,23 @@ Do not infer clinical information that is not visible.
 <script>
 (() => {
  'use strict';
+ // ANONYMOUS_BINARY_ROUTE_FIX_V1: the /w/ HTML router does not serve MP4/CSV/TXT.
+ // Use the anonymous repository's same-origin binary endpoint only on its website.
+ // Local and ordinary GitHub Pages paths remain unchanged.
+ const anonymousWebsite = location.hostname === 'anonymous.4open.science'
+    && location.pathname.match(/^\/w\/([^/]+)(?:\/|$)/);
+ if(anonymousWebsite){
+   const anonymousId=anonymousWebsite[1];
+   const rawPrefix='/api/repo/'+encodeURIComponent(decodeURIComponent(anonymousId))+'/file/';
+   const resources=document.querySelectorAll('video source[src^="media/"], a[href^="media/"], a[href^="results/"], a[href^="instructions/"]');
+   for(const el of resources){
+      const attribute=el.tagName==='SOURCE'?'src':'href';
+      const original=el.getAttribute(attribute);
+      if(!original)continue;
+      const rawUrl=rawPrefix+original.split('/').map(encodeURIComponent).join('/');
+      el.setAttribute(attribute,el.tagName==='SOURCE'?rawUrl:rawUrl+'?download=true');
+   }
+ }
  const videos=[...document.querySelectorAll('#examples video')];
  const status=document.getElementById('playback-state');
  const startButton=document.getElementById('play-all');
